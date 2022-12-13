@@ -11,6 +11,7 @@ import com.generation.lojagames.model.Usuario;
 import com.generation.lojagames.model.UsuarioLogin;
 import com.generation.lojagames.repository.UsuarioRepository;
 
+@service
 public class UsuarioService {
 	
 	@Autowired //injeção de independência para ter acesso na controller
